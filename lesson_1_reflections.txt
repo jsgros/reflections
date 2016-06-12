@@ -1,0 +1,58 @@
+bash commands:
+pwd			print work directory
+ls			
+emacs datei.txt		open emacs on datei.txt
+diff alt.txt neu.txt 	compare 
+
+https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html#SEC_Contents
+
+emacs commands:
+C-x C-c		safe-buffers-kill-terminal
+C-x u		undo
+C-g 		quit running or partially typed command
+
+GIT commands:
+git log		show commits
+q		stop
+git log --stat	
+diff --git commitID1 commitID2
+     	   	     show differences between repositories in commits
+git clone url	     clone repository in url into working directory
+git config --global color.ui auto
+git checkout
+
+REFLECTION:
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It made the job much faster. No need to screen hundrets of lines on my own.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It will be esier to find errors if they occur. It might be possible to 
+    track size of code and repeating errors.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pro: maximum flexibility con: danger of forgetting or missdimensioning
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Their target groups are different.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    find commit with git log and then find differences in whole repository with diff
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It's not a big deal.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Try a real scenario.
