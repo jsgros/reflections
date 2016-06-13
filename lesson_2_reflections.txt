@@ -1,7 +1,13 @@
 git commands:
-git init
-git status
-git add
+git init 			initialize Git in working directory
+git status 			view status of repository
+git add <file>		add file to staging area
+git diff 			compare working directory to staging area
+git diff --staged	compare staging area to newest commit
+git reset --hard	overwrite working directory with newest commit
+git checkout master	checkout back to HEAD
+git commit -m "text" commit with one-line-comment instead of sublime
+
 
 What happens when you initialize a repository? Why do you need to do it?
 
@@ -15,6 +21,8 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	If I start to work on a file put it to staging area and then if I'm not shure see git diff
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
