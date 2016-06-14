@@ -7,6 +7,14 @@ git diff --staged	compare staging area to newest commit
 git reset --hard	overwrite working directory with newest commit
 git checkout master	checkout back to HEAD
 git commit -m "text" commit with one-line-comment instead of sublime
+git log --graph		show commits in form of a graph
+git branch 			show branches
+git branch <name>	create branch but not move into it
+git checkout <name>	switch into branch
+git checkout -b <name>	create and switch to new branch
+git merge <b1> <b2>	merge branch b2 into b1, will go on with b1
+git show <commit>	show changes of commit against its parent (as git diff)
+git branch -d <b2>	delete b2-label
 
 
 What happens when you initialize a repository? Why do you need to do it?
@@ -26,11 +34,17 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	If I want to make a version or try something risky. I can easyly go on with master if this is more probable.
 
 How do the diagrams help you visualize the branch structure?
+	you can recognize where you left a branch into another
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+	It's the result of both paths - everything that one deleted is deleted, everything thas one created
+	stays. The graph shows the parallel paths.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
