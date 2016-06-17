@@ -12,7 +12,7 @@ git branch 			show branches
 git branch <name>	create branch but not move into it
 git checkout <name>	switch into branch
 git checkout -b <name>	create and switch to new branch
-git merge <b1> <b2>	merge branch b2 into b1, will go on with b1
+git merge <b1> <b2>	merge branch b1 and b2 into the branch that is checked out
 git show <commit>	show changes of commit against its parent (as git diff)
 git branch -d <b2>	delete b2-label
 
@@ -48,3 +48,5 @@ the diagram the way we do?
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+	Pro: faster
+	Con: Errors might occur.
