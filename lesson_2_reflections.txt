@@ -16,6 +16,10 @@ git merge <b1> <b2>	merge branch b1 and b2 into the branch that is checked out
 git show <commit>	show changes of commit against its parent (as git diff)
 git branch -d <b2>	delete b2-label
 
+git remote			show remote repositories
+git remote add <name> url	add remote repository at url (which git hub gives me after creating) typical <name> is origin
+git remote -v 		show remote repositories with information
+git push <name> <local branch>	push <local branch> to remote repository named <name>
 
 What happens when you initialize a repository? Why do you need to do it?
 
